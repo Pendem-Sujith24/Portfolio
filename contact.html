@@ -25,12 +25,31 @@
     <main>
         <section style="max-width:500px; margin:40px auto;">
             <h2 style="text-align:center; color:#0984e3;">Contact Form</h2>
-            <form action="mailto:your.email@example.com" method="post" enctype="text/plain" style="display:flex; flex-direction:column; gap:18px;">
+<!--             <form action="mailto:your.email@example.com" method="post" enctype="text/plain" style="display:flex; flex-direction:column; gap:18px;">
                 <input type="text" name="name" placeholder="Your Name" required style="padding:12px; border-radius:8px; border:1px solid #b2bec3;">
                 <input type="email" name="email" placeholder="Your Email" required style="padding:12px; border-radius:8px; border:1px solid #b2bec3;">
                 <textarea name="message" rows="5" placeholder="Your Message" required style="padding:12px; border-radius:8px; border:1px solid #b2bec3;"></textarea>
                 <button type="submit" class="contact-btn">Send Message</button>
-            </form>
+            </form> -->
+             <form
+  action="https://formspree.io/f/xandypoa"
+  method="POST"
+>
+
+    <label>
+        Your name:
+        <input type="text" name="name">
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
             <div style="text-align:center; margin-top:30px;">
                 <p><b>Email:</b> pendemsujith.@email.com</p>
                 <p><b>Phone:</b> <span style="margin-right:6px;">📞</span>+91 7989995090</p>
@@ -41,4 +60,5 @@
     </main>
     <p style="text-align: center;">&copy; 2025 PENDEM SUJITH. All rights reserved.</p>
 </body>
+
 </html>
